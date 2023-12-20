@@ -10,7 +10,7 @@ const Home = () => {
          </p>
       <ul>
         <li>
-          <Link to="/landingpageone">LandingpageOne</Link>
+          <Link to="/landingpageone">My Website</Link>
         </li>
       </ul>
     </div>

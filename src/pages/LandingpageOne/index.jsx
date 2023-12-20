@@ -130,12 +130,12 @@ const LandingpageOnePage = () => {
                           backgroundImage: "url('images/img_group74.svg')",
                         }}
                       >
-                        <Text
+                        <button
                           className="text-base text-center text-light_blue-400 tracking-[-0.40px]"
                           size="txtInterSemiBold16Lightblue400"
                         >
                           Start for free
-                        </Text>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -355,12 +355,12 @@ const LandingpageOnePage = () => {
                             backgroundImage: "url('images/img_group38.svg')",
                           }}
                         >
-                          <Text
+                          <button
                             className="text-base text-center text-gray-50 tracking-[-0.40px]"
                             size="txtInterSemiBold16"
                           >
                             Start building
-                          </Text>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -747,12 +747,12 @@ const LandingpageOnePage = () => {
                           backgroundImage: "url('images/img_group38.svg')",
                         }}
                       >
-                        <Text
+                        <Button
                           className="text-base text-center text-gray-50 tracking-[-0.40px]"
                           size="txtInterSemiBold16"
                         >
                           Start building
-                        </Text>
+                        </Button>
                       </div>
                     </div>
                   </div>
@@ -797,26 +797,26 @@ const LandingpageOnePage = () => {
                       <div className="flex md:flex-1 flex-col items-center justify-start md:mt-0 mt-[42px] w-[13%] md:w-full">
                         <div className="flex flex-col gap-[15px] items-start justify-start w-full">
                           <div className="flex flex-col items-center justify-start w-full">
-                            <Text
+                            <button
                               className="md:text-3xl sm:text-[28px] text-[32px] text-gray-400 tracking-[-1.50px]"
                               size="txtInterBold32"
                             >
                               Multi-chain
-                            </Text>
+                            </button>
                           </div>
-                          <Text
+                          <button
                             className="md:text-3xl sm:text-[28px] text-[32px] text-blue_gray-700_01 tracking-[-1.50px]"
                             size="txtInterSemiBold32Bluegray70001"
                           >
                             Dashboard
-                          </Text>
+                          </button>
                           <div className="flex flex-col items-center justify-start">
-                            <Text
+                            <button
                               className="md:text-3xl sm:text-[28px] text-[32px] text-gray-400 tracking-[-1.50px]"
                               size="txtInterSemiBold32Gray400"
                             >
                               Tool
-                            </Text>
+                            </button>
                           </div>
                         </div>
                       </div>
