@@ -1326,12 +1326,12 @@ const LandingpageOnePage = () => {
                 className="bg-cover bg-no-repeat flex flex-col h-[49px] items-center justify-start mt-[30px] p-3.5"
                 style={{ backgroundImage: "url('images/img_group38.svg')" }}
               >
-                <Text
+                <button
                   className="text-base text-center text-gray-50 tracking-[-0.40px]"
                   size="txtInterSemiBold16"
                 >
                   Start for free
-                </Text>
+                </button>
               </div>
             </div>
           </div>
@@ -1361,30 +1361,32 @@ const LandingpageOnePage = () => {
                     </div>
                   </div>
                   <div className="flex flex-row items-start justify-between w-full">
-                    <Text
+                    <button
                       className="text-base text-gray-50 tracking-[-0.40px]"
                       size="txtInterSemiBold16"
                     >
                       Web3Makr
-                    </Text>
-                    <Text
+                    </button>
+                    <button
                       className="text-base text-white-A700_66 tracking-[-0.40px]"
                       size="txtInterSemiBold16WhiteA70066"
                     >
                       White paper
-                    </Text>
-                    <Text
+                    </button>
+                    <button
                       className="text-base text-white-A700_66 tracking-[-0.40px]"
                       size="txtInterSemiBold16WhiteA70066"
                     >
                       Services
-                    </Text>
-                    <Text
+                    </button>
+                    <div style={{ margin: '10px 0' }}></div>
+                    <button
                       className="text-base text-white-A700_66 tracking-[-0.40px]"
                       size="txtInterSemiBold16WhiteA70066"
                     >
                       Tool
-                    </Text>
+                    </button>
+                    <div style={{ margin: '10px 0' }}></div>
                     <a
                       href="javascript:"
                       className="text-base text-white-A700_66 tracking-[-0.40px]"
