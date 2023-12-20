@@ -843,7 +843,7 @@ const LandingpageOnePage = () => {
                             <div className="absolute bottom-[0] flex flex-col md:gap-10 gap-[63px] inset-x-[0] items-center justify-start mx-auto w-3/4">
                               <div className="flex flex-col h-56 items-center justify-start w-56">
                                 <Img
-                                  className="h-56 md:h-auto rounded-[50%] w-56"
+                                  className="h-56 md:h-auto rounded-[10%] w-56"
                                   src="images/img_shutterstock1.png"
                                   alt="shutterstockOne"
                                 />
@@ -995,12 +995,16 @@ const LandingpageOnePage = () => {
           </div>
           <div className="flex md:flex-col flex-row md:gap-10 gap-[61px] items-start justify-start max-w-[1384px] mt-44 mx-auto md:px-5 w-full">
             <div className="flex flex-col items-center justify-start">
+            <div style={{ margin: '10px 0' }}></div>
               <Text
                 className="leading-[74.00px] md:text-5xl text-[65px] text-gray-900 tracking-[-2.40px] w-full"
                 size="txtInterSemiBold65"
               >
+                
                 Frequently asked questions
               </Text>
+              <div style={{ margin: '10px 0' }}></div>
+              <div style={{ margin: '10px 0' }}></div>
               <Text
                 className="leading-[40.00px] mt-1 md:text-3xl sm:text-[28px] text-[32px] text-gray-500 tracking-[-0.30px] w-[97%] sm:w-full"
                 size="txtInterMedium32"
@@ -1009,11 +1013,14 @@ const LandingpageOnePage = () => {
                 find your answer.
               </Text>
             </div>
+            <div style={{ margin: '10px 0' }}></div>
             <List className="flex flex-col w-3/5" orientation="vertical">
               <div className="flex flex-col items-center justify-start w-full">
                 <div className="flex flex-col gap-[41px] items-center justify-start w-full">
                   <Line className="bg-gray-300_01 h-px w-full" />
                   <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between w-[98%] md:w-full">
+                  <div style={{ margin: '10px 0' }}></div>
+                  <div style={{ margin: '10px 0' }}></div>
                     <Text
                       className="text-gray-900 text-xl tracking-[-0.50px]"
                       size="txtInterSemiBold20"
